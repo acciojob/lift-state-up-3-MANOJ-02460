@@ -9,7 +9,7 @@ const App = () => {
   const [selectedOption, setSelectedOption] = useState("");
 
   return (
-    <div className="parent-container">
+    <div className="parent">
       <h1 style={{marginBottom:"10px"}}>Parent Component</h1>
       <ChildComponent1 onOptionChange={setSelectedOption}/>
       <ChildComponent2 onOptionChange={setSelectedOption}/>
